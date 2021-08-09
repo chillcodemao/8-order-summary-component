@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.order-summary-main-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    overflow: hidden;
+    max-width: 32.7rem;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    background-color: white;
+}
+
+.order-summary-illustration-component img {
+    max-height: 16rem;
+}
+
+.order-summary-description-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.8rem 2.4rem 3.7rem 2.4rem;
+}
+
+p {
+    text-align: center;
+    margin-top: 1.6rem;
+}
+
+.order-summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.4rem;
+    padding: 1.6rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1.1rem;
+    overflow: hidden;
+    margin-bottom: 2.4rem;
+}
+
+.order-summary img {
+    margin-right: 2rem;
+}
+
+.plan-type {
+    margin-bottom: 0.3rem;
+}
+
+.modify-order {
+    margin-left: 5rem;
+}
+
+.purchase-order {
+    background-color: hsla(245, 75%, 52%, 1);
+    text-decoration: none;
+    padding: 1.5rem 6.4rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    max-width: 27.9rem;
+}
+
+.cancel-order {
+    text-decoration: none;
+    margin-top: 2.4rem;
+}
+
+@media (min-width: 920px) {
+
+    body {
+        background-size: contain;
+    }
+
+    .order-summary-main-component {
+        max-width: 45rem;
+    }
+
+    .order-summary-illustration-component img {
+        max-width: 45rem;
+        max-height: 22rem;
+    }
+
+    .order-summary-description-component {
+        padding: 5.3rem 4.8rem;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        font-weight: 900;
+        line-height: 3.7rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 2.6rem;
+        max-width: 35rem;
+    }
+
+    .order-summary {
+        max-width: 35.4rem;
+        max-height: 9.8rem;
+        padding: 2.5rem;
+        margin-bottom: 3.2rem;
+    }
+
+    .order-plan {
+        max-width: 9.2rem;
+    }
+
+    .plan-type {
+        font-size: 1.6rem;
+        font-weight: 900;
+        line-height: 2.1rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .plan-pricing {
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 2.1rem;
+    }
+
+    .modify-order {
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1.8rem;
+        margin-left: 9.2rem;
+        transition: all;
+    }
+
+    .modify-order:hover, .modify-order:focus {
+        text-decoration: none;
+        color: hsla(245, 83%, 68%, 1);
+        cursor: pointer;
+    }
+
+    .purchase-order {
+        padding: 1.5rem 10.2rem;
+        max-width: 35.4rem;
+        transition: all;
+    }
+
+    .purchase-order:hover, .purchase-order:focus {
+        background-color: hsla(245, 83%, 68%, 1);
+        cursor: pointer;
+    }
+
+    .cancel-order {
+        margin-top: 3.2rem;
+        transition: all;
+    }
+
+    .cancel-order:hover, .cancel-order:focus {
+        color: hsla(223, 47%, 23%, 1);
+        cursor: pointer;
+    }
+}

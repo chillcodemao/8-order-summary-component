@@ -1,0 +1,56 @@
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 2.9rem;
+    color: hsla(223, 46%, 23%, 1);
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: hsla(223, 23%, 55%, 1);
+}
+
+.plan-type {
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 1.8rem;
+    color: hsla(223, 46%, 23%, 1);
+}
+
+.plan-pricing {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: hsla(224, 23%, 55%, 1);
+}
+
+.modify-order {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+    color: hsla(245, 75%, 52%, 1);
+}
+
+.purchase-order {
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 2rem;
+    color: hsla(0, 0%, 100%, 1);
+}
+
+.cancel-order {
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 2rem;
+    color: hsla(224, 23%, 55%, 1);
+}
